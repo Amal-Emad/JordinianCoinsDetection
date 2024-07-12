@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['0.05', '0.1', '0.25', '0.5', '1', '10', '20', '5', '50']
+
+roboflow:
+  workspace: jd-coins
+  project: jd-coins-detection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jd-coins/jd-coins-detection/dataset/2
